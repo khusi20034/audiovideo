@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="segue1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYY-fU-IlC">
+                                <rect key="frame" x="108" y="754" width="198" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Start">
+                                            <attributes>
+                                                <color key="NSColor" red="0.74006821996919825" green="0.75978901228316897" blue="0.77029680964922664" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="56" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.67892508669999996" green="0.5719955377" blue="0.77029680960000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="wiZ-9y-Sgu" kind="show" id="9z0-86-ux7"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pumakids.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="kA1-cP-ByB">
+                                <rect key="frame" x="-11" y="173" width="425" height="534"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="separatorColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jJx-yQ-8jl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-117.39130434782609" y="71.651785714285708"/>
+        </scene>
+        <!--Second viewcontroller View Controller-->
+        <scene sceneID="xvy-9w-bME">
+            <objects>
+                <viewController id="wiZ-9y-Sgu" customClass="second_viewcontrollerViewController" customModule="segue1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kl5-X9-dhT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDb-K8-hlN">
+                                <rect key="frame" x="116" y="385" width="183" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Search">
+                                            <attributes>
+                                                <color key="NSColor" red="0.77029680964922664" green="0.47690377478715013" blue="0.085465596369869348" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="50" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="YM1-cF-kJ4" kind="show" id="GlV-My-pIj"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="search.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="bdk-uS-f5y">
+                                <rect key="frame" x="0.0" y="136" width="414" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Kk1-iK-EgU"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FzB-hV-Zck"/>
+                    <connections>
+                        <segue destination="YM1-cF-kJ4" kind="show" id="eMP-ye-1da"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fmx-LI-lfR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="628.98550724637687" y="71.651785714285708"/>
+        </scene>
+        <!--Third viewcontroller-->
+        <scene sceneID="RHz-Rp-3Az">
+            <objects>
+                <viewController id="YM1-cF-kJ4" customClass="third_viewcontroller" customModule="segue1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" tag="-1" contentMode="scaleToFill" id="bhg-kv-xaz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kids3.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="aVN-5G-Cky">
+                                <rect key="frame" x="74" y="101" width="240" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tvo-AB-25K">
+                                <rect key="frame" x="109" y="439" width="191" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Next">
+                                            <attributes>
+                                                <color key="NSColor" red="0.77029680964922664" green="0.10480881356609831" blue="0.11372320154034253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="50" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dud-pR-JvR"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7Q4-0z-oaF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ane-7I-sG8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1314.4927536231885" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="GlV-My-pIj"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="kids3.jpeg" width="1536" height="1536"/>
+        <image name="pumakids.jpeg" width="373" height="135"/>
+        <image name="search.jpeg" width="1920" height="698"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="separatorColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
